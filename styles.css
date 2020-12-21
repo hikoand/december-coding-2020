@@ -1,0 +1,22 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+}
+
+.screen-header__title {
+  font-family: georgia, serif;
+  font-weight: bold;
+  font-size: 38px;
+}
+
+.screen-header__menu span {
+  margin-left: 35px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.screen-header__menu__icon {
+  margin-left: 40px;
+}
