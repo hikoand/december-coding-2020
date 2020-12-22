@@ -1,8 +1,12 @@
+body {
+  margin: 0;
+}
+
 .screen-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 80px;
+  padding: 25px 80px 25px 30px;
 }
 
 .screen-header__title {
@@ -19,4 +23,46 @@
 
 .screen-header__menu__icon {
   margin-left: 40px;
+}
+
+.screen-banner {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.nav {
+  padding: 50px 450px 20px 450px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: none;
+  border: 0;
+}
+
+a {
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+a:hover {
+  color: white;
+  background-color: #c4b6a7;
+}
+
+.screen-pic {
+  text-align: center;
 }
